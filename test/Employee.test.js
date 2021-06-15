@@ -1,5 +1,3 @@
-// Starter file provided by Instructor (03/09/2021) AC
-
 const Employee = require("../lib/Employee");
 
 test("Can instantiate Employee instance", () => {

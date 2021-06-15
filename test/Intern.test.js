@@ -6,7 +6,7 @@ test("Can set school via constructor", () => {
     const school = "UNCC";
     const newIntern = new Intern("fred", 1, "fred@fred.fred", school);
 
-    expect(newIntern.github).toBe(school);
+    expect(newIntern.school).toBe(school);
 
 });
 
@@ -21,5 +21,5 @@ test("Can get school via getSchool()", () => {
     const school = "UNCC";
     const newIntern = new Intern("fred", 1, "fred@fred.fred", school);
 
-    expect(newIntern.getGithub()).toBe(school);
+    expect(newIntern.getSchool()).toBe(school);
 });
